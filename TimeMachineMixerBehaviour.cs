@@ -35,13 +35,13 @@ namespace thefall.timelineExtensions
                     {
                         switch (input.action)
                         {
-                            case TimeMachineBehaviour.TimeMachineAction.Pause:
-                                if (input.ConditionMet())
-                                {
-                                    GameManager.instance.PauseTimeline(director);
-                                    input.clipExecuted = true; //this prevents the command to be executed every frame of this clip
-                                }
-                                break;
+                            //case TimeMachineBehaviour.TimeMachineAction.Pause:
+                            //    if (input.ConditionMet())
+                            //    {
+                            //        GameManager.instance.PauseTimeline(director);
+                            //        input.clipExecuted = true; //this prevents the command to be executed every frame of this clip
+                            //    }
+                            //    break;
 
                             case TimeMachineBehaviour.TimeMachineAction.JumpToTime:
                             case TimeMachineBehaviour.TimeMachineAction.JumpToMarker:
