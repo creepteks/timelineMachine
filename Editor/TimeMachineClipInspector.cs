@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace thefall.timelineExtensions
+namespace neo.timelineExtensions
 {
     [CustomEditor(typeof(TimeMachineClip))]
     public class TimeMachineClipInspector : Editor

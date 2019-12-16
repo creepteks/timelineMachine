@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace thefall.timelineExtensions
+namespace neo.timelineExtensions
 {
     [Serializable]
     public class TimeMachineBehaviour : PlayableBehaviour

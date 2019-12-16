@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace thefall.timelineExtensions
+namespace neo.timelineExtensions
 {
     [Serializable]
     public class TimeMachineClip : PlayableAsset, ITimelineClipAsset

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
-namespace thefall.timelineExtensions
+namespace neo.timelineExtensions
 {
     [TrackColor(0.7366781f, 0.3261246f, 0.8529412f)]
     [TrackClipType(typeof(TimeMachineClip))]

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace thefall.timelineExtensions
+namespace neo.timelineExtensions
 {
     public interface ITimelineConditional
     {
